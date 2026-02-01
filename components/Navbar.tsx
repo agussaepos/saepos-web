@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 import { NavItem } from '../types';
 
+import Image from 'next/image'
+
 const navItems: NavItem[] = [
   { label: 'Beranda', href: '#home' },
   { label: 'Fitur', href: '#features' },
@@ -52,11 +54,8 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="flex justify-between items-center h-14">
           <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer" onClick={scrollToTop}>
-            <div className="bg-gradient-to-br from-primary-500 to-primary-600 p-2.5 rounded-2xl text-white shadow-lg shadow-primary-500/30">
-              <ShoppingBag size={22} strokeWidth={2.5} />
-            </div>
             <div>
-              <span className="font-bold text-xl tracking-tight text-slate-900">Sae Pos</span>
+              <span className="font-bold text-xl tracking-tight text-slate-900">Sae POS</span>
               <span className="block text-[9px] text-slate-500 font-semibold -mt-0.5 tracking-widest uppercase">by Tasiklab</span>
             </div>
           </div>

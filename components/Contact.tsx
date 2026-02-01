@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { MapPin, Phone, Mail, Clock, ExternalLink } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -29,8 +30,7 @@ const Contact: React.FC = () => {
           
           <div>
             <div className="flex items-center gap-3 mb-8">
-                <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center font-black text-white shadow-lg">T</div>
-                <span className="text-2xl font-black">Tasiklab</span>
+                <span className="text-2xl font-black">Sae POS</span>
             </div>
             <p className="text-slate-400 mb-8 max-w-md leading-relaxed">
               Kami adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital terintegrasi untuk memajukan ekonomi lokal dan nasional. Sae Pos adalah salah satu produk unggulan kami.
