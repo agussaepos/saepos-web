@@ -54,10 +54,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
         <div className="flex justify-between items-center h-14">
           <div className="flex-shrink-0 flex items-center gap-3 cursor-pointer" onClick={scrollToTop}>
-            <div>
-              <span className="font-bold text-xl tracking-tight text-slate-900">Sae POS</span>
-              <span className="block text-[9px] text-slate-500 font-semibold -mt-0.5 tracking-widest uppercase">by Tasiklab</span>
-            </div>
+            <Image src="/logo.png" alt="Sae POS" width={150} height={60} className="h-auto" priority />
           </div>
           
           <div className="hidden md:block">

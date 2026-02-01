@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
           
           <div>
             <div className="flex items-center gap-3 mb-8">
-                <span className="text-2xl font-black">Sae POS</span>
+                <Image src="/logo-v2.png" alt="Sae POS" width={200} height={60} className="h-auto" />
             </div>
             <p className="text-slate-400 mb-8 max-w-md leading-relaxed">
               Kami adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital terintegrasi untuk memajukan ekonomi lokal dan nasional. Sae Pos adalah salah satu produk unggulan kami.
