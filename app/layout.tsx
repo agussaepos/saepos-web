@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 import QueryProvider from "@/components/providers/query-provider";
+import { Toaster } from "react-hot-toast";
 
 export default function RootLayout({
   children,
@@ -20,7 +21,10 @@ export default function RootLayout({
   return (
     <html lang="id">
       <body className="antialiased">
-        <QueryProvider>{children}</QueryProvider>
+        <QueryProvider>
+          {children}
+          <Toaster position="bottom-right" reverseOrder={false} />
+        </QueryProvider>
       </body>
     </html>
   );
